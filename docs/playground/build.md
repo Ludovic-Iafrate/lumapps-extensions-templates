@@ -107,9 +107,9 @@ To build your extension, choose the type of bump you want to do (« Major », «
 
 Click on the **BUILD EXTENSION** button. The extension files will be under the `dist/{your_extension_id}/` folder.
 
-You should see at least one file : Content.lum
+You should see at least one file : Content.js
 
-If you have created settings for your extension you should have one file per settings (Settings.lum, GlobalSettings.lum).
+If you have created settings for your extension you should have one file per settings (Settings.js, GlobalSettings.js).
 
 Your extension has been built, you can now deploy it.
 
@@ -125,7 +125,7 @@ When it’s done, you will have to keep a URL which should point to the generate
 
 In the playground, go to **PLAYGROUND SETTINGS** and go to the **BUILD & DEPLOY** tab.
 
-In the section 2, **Deploy the extension**, fill in the HTTP Server input with the URL pointing to your LUM files.
+In the section 2, **Deploy the extension**, fill in the HTTP Server input with the URL pointing to the built files.
 
 Click on the DEPLOY EXTENSION IN BETA button.
 
